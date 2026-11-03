@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the paper below and the software itself."
+type: software
+title: "endolift: a scenario-decomposed branch-and-cut with linked lifted cuts for facility location with decision-dependent scenario probabilities"
+authors:
+  - family-names: Martin
+    given-names: Karyamsetty
+    email: karyamsettymartin@gmail.com
+version: 1.0.0
+date-released: 2026-11-03
+license: MIT
+keywords:
+  - stochastic programming
+  - facility location
+  - decision-dependent uncertainty
+  - endogenous probabilities
+  - branch-and-cut
+  - lifted cuts
+  - RLT
+abstract: >-
+  C++ branch-and-cut for two-stage stochastic facility location in which the scenario
+  probabilities are affine in the opening decision. The relaxation is a linked lifted-cut
+  master (Benders cuts of each scenario multiplied by the posiform factors of the probability
+  and lifted to pair variables, tied by level-1 RLT linking rows), evaluated by a scenario
+  decomposition with closed-form blocks. Includes the instance generator, McCormick baselines
+  in the same tree code, an MPI node-parallel tree, a sparse-influence variant, every
+  experiment of the paper and the paper itself.
+preferred-citation:
+  type: unpublished
+  title: "Facility Location with Decision-Dependent Scenario Probabilities: Linked Lifted Cuts and a Scenario-Decomposed Branch-and-Cut"
+  authors:
+    - family-names: Martin
+      given-names: Karyamsetty
+  year: 2026
+  month: 10
+  notes: "Manuscript, 2026. Code and data: this repository."

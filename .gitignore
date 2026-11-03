@@ -1,0 +1,33 @@
+# editors / os
+.vscode/
+.idea/
+.DS_Store
+*.bak
+
+# solver: build trees and vendored dependencies
+#   HiGHS is fetched by CMake into the build tree; Open MPI is built by solver/third_party/get_openmpi.sh
+solver/build*/
+solver/third_party/openmpi/
+solver/third_party/src/
+solver/stall_*.mps
+solver/stall_*.bas
+
+# experiments: keep CSV tables and RESULTS.md; drop logs, cut-pool caches and LP dumps (large, regenerable)
+experiments/**/*.log
+experiments/**/*.pkl
+experiments/**/*.mps
+experiments/**/*.bas
+
+# paper build intermediates (main.pdf is kept)
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.bbl
+paper/*.blg
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+
+# third_party build logs
+solver/third_party/*.log
