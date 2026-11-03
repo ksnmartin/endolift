@@ -32,5 +32,6 @@ preferred-citation:
     - family-names: Martin
       given-names: Karyamsetty
   year: 2026
-  month: 10
-  notes: "Manuscript, 2026. Code and data: this repository."
+  month: 11
+  notes: "Preprint on Optimization Online, November 2026. Code and data: this repository."
+  url: "https://optimization-online.org/2026/11/facility-location-with-decision-dependent-scenario-probabilities-linked-lifted-cuts-and-a-scenario-decomposed-branch-and-cut/"

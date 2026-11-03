@@ -5,7 +5,7 @@
 Two-stage stochastic facility location with **decision-dependent (endogenous) scenario probabilities**, solved to
 proven optimality by a branch-and-cut whose relaxation is a *linked lifted-cut* master, evaluated by scenario
 decomposition. The code base contains the C++ solver (generator, three masters, MPI tree, table builder), every
-experiment of the paper, and the paper itself (`paper/main.tex`, author Karyamsetty Martin).
+experiment of the paper, and the paper itself (`paper/main.tex`, author Karyamsetty Martin). Preprint: [Optimization Online, November 2026](https://optimization-online.org/2026/11/facility-location-with-decision-dependent-scenario-probabilities-linked-lifted-cuts-and-a-scenario-decomposed-branch-and-cut/).
 
 Headline: on 25 instances with 25–50 sites and 20 scenarios the solver proves optimality in 4 s to 12 min with a
 root gap of 0.07–0.55 %, where the standard McCormick branch-and-cut (same tree code) has a 6–10 % root gap, leaves
@@ -341,7 +341,8 @@ If you use the code or the results, cite the paper and the software (`CITATION.c
       title  = {Facility Location with Decision-Dependent Scenario Probabilities:
                 Linked Lifted Cuts and a Scenario-Decomposed Branch-and-Cut},
       year   = {2026},
-      note   = {Manuscript. Code, instances and results: the endolift repository}
+      note   = {Preprint, Optimization Online, November 2026. Code, instances and results: the endolift repository},
+      url    = {https://optimization-online.org/2026/11/facility-location-with-decision-dependent-scenario-probabilities-linked-lifted-cuts-and-a-scenario-decomposed-branch-and-cut/}
     }
 
     @software{martin2026endolift_code,
