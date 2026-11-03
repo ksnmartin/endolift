@@ -1,6 +1,6 @@
 # endolift
 
-*endo*genous probabilities, *lift*ed cuts.
+*endo*genous probabilities, *lift*ed cuts. Project code name: chandelure.
 
 Two-stage stochastic facility location with **decision-dependent (endogenous) scenario probabilities**, solved to
 proven optimality by a branch-and-cut whose relaxation is a *linked lifted-cut* master, evaluated by scenario
